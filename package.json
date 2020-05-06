@@ -1,0 +1,15 @@
+{
+  "name": "speedTemplate",
+  "version": "1.0.0",
+  "description": "templatefor fatly built websites with scss and npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss" : "node-sass --watch styles/scss -o styles/css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
